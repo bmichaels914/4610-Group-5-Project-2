@@ -108,16 +108,16 @@ The project joined the BLS price timeseries table with the price attributes tabl
 
 ## Analysis and Results:
 
-![Snowflake](Images/Dashboard1.png)
+![Snowflake](Dashboard1.png)
 
 From 2000 through roughly 2020, grocery and restaurant prices rose almost identically, meaning the cost gap between eating at home and eating out stayed narrow and stable for two decades. After 2020, however, restaurant prices pulled sharply ahead, ending about 45 CPI points higher than groceries by 2025. This has been the widest divergence in the entire 25-year window. The gap has clearly widened, driven by the heavier labor and operational cost pressures that hit the food service industry harder than grocery retail in the post-pandemic period.
 
-![Snowflake](Images/Dashboard2.png)
+![Snowflake](Dashboard2.png)
 
 All five metros trended upward over the decade, but San Francisco stood out as both the highest-priced and fastest-growing market, pulling away from the pack to reach a CPI of roughly 365 by 2025. Houston was the clear outlier on the opposite end, remaining the flattest and lowest-priced throughout the entire period. New York and Chicago converged near the top by 2025, while Los Angeles grew steadily in the middle, making San Francisco the answer to which city saw the most consistently high alcoholic beverage price growth.
 
 
-![Snowflake](Images/Dashboard3.png)
+![Snowflake](Dashboard3.png)
 
 
 
@@ -127,18 +127,18 @@ All five metros trended upward over the decade, but San Francisco stood out as b
 
 ### Question 1: 
 
-![Snowflake](Images/Image1.png)
+![Snowflake](Image1.png)
 
-![Snowflake](Images/Image2.png)
+![Snowflake](Image2.png)
 
 The first question uses a line chart to show long-term alcoholic beverage price trends across five metro areas and a bar chart to show year-over-year percentage changes, helping identify which cities had the steepest and most consistent increases. Interactive city and year filters, summary metric cards, and hover tooltips make it easier to compare locations and focus on specific time periods.
 
 
 ### Question 2:
 
-![Snowflake](Images/Image3.png)
+![Snowflake](Image3.png)
 
-![Snowflake](Images/Image4.png)
+![Snowflake](Image4.png)
 
 The second question uses a line chart to compare Food at Home and Food Away from Home price trends over time and a bar chart to measure the price gap between them. Interactive year and product filters, along with tooltips, help users analyze how events like the 2008 recession and 2020 pandemic affected both categories differently and whether the gap has grown.
 
