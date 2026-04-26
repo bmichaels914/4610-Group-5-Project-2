@@ -23,7 +23,7 @@ We chose the BLS database because it provides a wide range of pricing and Consum
 
 The BLS database contains 12 tables. For this project, we used three main tables: BLS CPI Statistics Timeseries, BLS CPI Statistics Attributes, and the Geography Index table.
 
-Tables Used
+## Tables Used
 
 ### BLS CPI Statistics Timeseries
 Rows: 1,429,988
@@ -106,7 +106,7 @@ The project joined three BLS tables: price timeseries, price attributes, and geo
 
 The project joined the BLS price timeseries table with the price attributes table to connect monthly CPI data with the correct food categories. It filtered for only “Food at home” and “Food away from home” starting from the year 2000 to compare long-term food price trends. The data was grouped by month using DATE_TRUNC('MONTH', t.DATE) and average prices were calculated using AVG(t.VALUE). A calculated field called GAP was created by subtracting Food at Home prices from Food Away from Home prices so the difference between grocery and restaurant food costs could be compared more clearly.
 
-## Analysis and Results:
+## Dashboard Analysis and Results:
 
 ![Snowflake](Dashboard1.png)
 
